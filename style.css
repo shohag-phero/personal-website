@@ -1,0 +1,103 @@
+body{
+    font-family: 'Vidaloka', serif;
+    margin: 0;
+}
+.top-area{
+    background-image: url(images/top-bg.png);
+    background-size: cover;
+    height: 657px;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: dimgray;
+    font-size: 20px;
+}
+h2{
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, blue, cyan);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.link-button:hover{
+    background-image: linear-gradient(35deg, lightsalmon, tomato);
+    font-size: 20px;
+}
+}
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 620px;
+    width: 100%;
+    padding-top: 50px;   
+}
+button{
+    width: 18%;
+    height: 2px;
+    background-color: fuchsia;
+    border: 1px fuchsia solid;
+    border-radius: 3px;
+    margin: 0;
+}
+.position{
+    text-align: center;
+    color: black;
+}
+.work-image img{
+    float: left;
+    width:30%;
+    height: 100%;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 10px 10px 40px purple;
+}
+.work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:657px;
+    width: 100%;
+    padding-bottom:20px;
+
+}
+.footer-bg{
+    background-image: url(images/footer-bg.png);
+}
+section{
+    height: 700px;
+    margin: 1%;
+}
+.message-area{
+    background-color:hotpink ;
+    background-position: center;
+    padding: 10px 20px 10px 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 9px;
+}
+#mail-color{
+    color: white;
+    font-size: 30px;
+}
+footer{
+    color: dimgray;
+    text-align: center;
+    font-size: 20px;
+}
